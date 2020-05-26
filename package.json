@@ -1,0 +1,28 @@
+{
+  "name": "jstring",
+  "version": "1.0.0",
+  "description": "Custom string class for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasyTech-International-Sdn-Bhd/JString.git"
+  },
+  "keywords": [
+    "js",
+    "jstring",
+    "string",
+    "nodejs",
+    "nodestring",
+    "nodejstring",
+    "js-string"
+  ],
+  "author": "Mohammad Julfikar Mahmud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EasyTech-International-Sdn-Bhd/JString/issues"
+  },
+  "homepage": "https://github.com/EasyTech-International-Sdn-Bhd/JString#readme"
+}
