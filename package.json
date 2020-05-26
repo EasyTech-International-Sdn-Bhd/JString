@@ -1,6 +1,6 @@
 {
   "name": "@EasyTech-International-Sdn-Bhd/jstring",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Custom string class for JavaScript",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,5 @@
     "url": "https://github.com/EasyTech-International-Sdn-Bhd/JString/issues"
   },
   "homepage": "https://github.com/EasyTech-International-Sdn-Bhd/JString#readme",
-  "publishConfig": { "registry": "https://npm.pkg.github.com --scope=@easytech" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com --scope=@EasyTech-International-Sdn-Bhd" }
 }
