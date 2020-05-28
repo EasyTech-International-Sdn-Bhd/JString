@@ -58,5 +58,9 @@ Any string like 'null'/'undefined' will be auto converted to ''
 
 - Allow schema for password validation
 - Allow schema for form validation
+- Allow tokenize search
 
+## Author
+
+💻 🛠 Mohammad Julfikar Mahmud
 
