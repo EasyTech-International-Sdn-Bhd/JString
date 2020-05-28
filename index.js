@@ -10,7 +10,7 @@ const __JString = require('./JString');
  * JString('Hello World').searchDeep('w'); // case insensitive search
  * // => true
  * JString('').isSafe();
- * // => false
+ * // => ''
  * var ex = JString('abc.com').removeLastChar().toStr();
  * // => abc.co
  * ex.removeLastChar('r').toStr(); // `r` is not the last charanceter
@@ -19,7 +19,7 @@ const __JString = require('./JString');
  * // => abcdefghij
  * var ex = JString('Dogge Doggo').replaceInfinity('g','');
  * // => Doe Doo
- * ex.fallback().toStr();
+ * ex.rollback().toStr();
  * // => Dogge Doggo
  * JString('12345.67').inCurrency('$').toStr();
  * // => $12,345.67
