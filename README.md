@@ -5,9 +5,7 @@ Handy tool for Javascript String. Can be used in <br>`NodeJS`<br>`React-Native`<
 
 ---
 
-## Table of Contents (Optional)
-
-> If your `README` has a lot of info, section headers might be nice.
+## Table of Contents 
 
 - [Installation](#installation)
 - [Methods](#methods)
