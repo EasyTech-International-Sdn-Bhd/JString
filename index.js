@@ -1,4 +1,4 @@
-const __JString = require('./JString');
+const __JString = require('./src/JString');
 /**
  * @class JString
  * @param {*} your_var The value to process
