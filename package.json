@@ -1,6 +1,6 @@
 {
   "name": "@easytech-international-sdn-bhd/jstring",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Custom string class for JavaScript",
   "main": "index.js",
   "scripts": {
