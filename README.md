@@ -1,5 +1,5 @@
 # JString
-<img src="./cover.png" style="height:200px;width:100%"/>
+<img src="https://easysales.asia/brandlogo/assets/cover.png" style="height:200px;width:100%"/>
 
 Handy tool for Javascript String. Can be used in <br>`NodeJS`<br>`React-Native`<br>`ReactJS` applications.
 
