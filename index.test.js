@@ -1,3 +1,3 @@
 const JString = require('./index');
 
-console.log(JString('0').toNumber());
+console.log(JString('ABC').removeFirstChar('c').toStr());

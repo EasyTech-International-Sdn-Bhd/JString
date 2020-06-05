@@ -1,5 +1,6 @@
 const __JString = require('./src/JString');
 /**
+ * @author Mohammad Julfikar Mahmud
  * @class JString
  * @param {*} your_var The value to process
  * @returns { JString | String } instance
@@ -8,6 +9,8 @@ const __JString = require('./src/JString');
  * JString('<p>Hello World</p>').trimHtml().toStr();
  * // => Hello World
  * JString('Hello World').searchDeep('w'); // case insensitive search
+ * // => true
+ * JString('Hello World').searchTokens(['w','h']); // case insensitive search
  * // => true
  * JString('').isSafe();
  * // => ''
@@ -39,6 +42,18 @@ const __JString = require('./src/JString');
  * // => false
  * JString('').isValid();
  * // => false
+ * JString('abc').firstUpperCase().toStr();
+ * // => Abc
+ * JString('ABC').firstLowerCase().toStr();
+ * // => aBC
+ * JString('ABc').lastUpperCase().toStr();
+ * // => ABC
+ * JString('ABC').lastLowerCase().toStr();
+ * // => ABc
+ * JString('ABC').isEqual('Abc');
+ * // => false
+ * JString('ABC').isEqualDeep('Abc');
+ * // => true
  */
 module.exports = function(your_var){
     return new __JString(your_var);
