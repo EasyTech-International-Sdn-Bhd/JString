@@ -1,4 +1,4 @@
-const __JString = require('./src/JString');
+const __JString = require('./index');
 /**
  * @author Mohammad Julfikar Mahmud
  * @class JString

@@ -268,4 +268,6 @@ class JString extends String{
     }
 }
 
-module.exports = JString;
+module.exports = function (props) {
+    return new JString(props);
+};
