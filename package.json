@@ -2,7 +2,7 @@
   "name": "@easytech-international-sdn-bhd/jstring",
   "version": "1.1.4",
   "description": "Custom string class for JavaScript",
-  "main": "temp.js",
+  "main": "index.js",
   "scripts": {
     "test": "node index.test.js"
   },
